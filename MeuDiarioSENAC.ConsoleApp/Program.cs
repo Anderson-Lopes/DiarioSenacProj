@@ -1,4 +1,21 @@
-﻿RegistroDAO dao = new RegistroDAO();
+﻿static int LerInteiro(string mensagem)
+{
+    while (true)
+    {
+        Console.Write(mensagem);
+        string? entrada = Console.ReadLine();
+
+        if (int.TryParse(entrada, out int valor))
+        {
+            return valor;
+        }
+
+        Console.WriteLine("Valor inválido. Digite um número inteiro.");
+    }
+}
+
+RegistroDAO dao = new RegistroDAO();
+Usuario usuarioPadrao = dao.ObterOuCriarUsuarioPadrao();
 
 int opcao;
 
@@ -12,12 +29,12 @@ do
     Console.WriteLine("1 - Novo Registro");
     Console.WriteLine("2 - Listar Registros");
     Console.WriteLine("3 - Buscar por ID");
+    Console.WriteLine("4 - Atualizar Registro");
+    Console.WriteLine("5 - Excluir Registro");
     Console.WriteLine("0 - Sair");
     Console.WriteLine();
 
-    Console.Write("Escolha uma opção: ");
-
-    opcao = Convert.ToInt32(Console.ReadLine());
+    opcao = LerInteiro("Escolha uma opção: ");
 
     Console.Clear();
 
@@ -34,6 +51,8 @@ do
             registro.Conteudo = Console.ReadLine()!;
 
             registro.DataRegistro = DateTime.Now;
+            registro.Usuario = usuarioPadrao;
+            registro.UsuarioId = usuarioPadrao.Id;
 
             dao.Inserir(registro);
 
@@ -65,9 +84,7 @@ do
 
         case 3:
 
-            Console.Write("Informe o ID: ");
-
-            int id = Convert.ToInt32(Console.ReadLine());
+            int id = LerInteiro("Informe o ID: ");
 
             Registro? encontrado = dao.BuscarPorId(id);
 
@@ -80,6 +97,46 @@ do
                 Console.WriteLine($"Data: {encontrado.DataRegistro:dd/MM/yyyy}");
                 Console.WriteLine($"Conteúdo:");
                 Console.WriteLine(encontrado.Conteudo);
+            }
+            else
+            {
+                Console.WriteLine("Registro não encontrado.");
+            }
+
+            break;
+
+        case 4:
+
+            int idAtualizacao = LerInteiro("Informe o ID do registro: ");
+            Registro? registroAtualizado = dao.BuscarPorId(idAtualizacao);
+
+            if (registroAtualizado != null)
+            {
+                Console.Write("Novo título: ");
+                registroAtualizado.Titulo = Console.ReadLine()!;
+
+                Console.Write("Novo conteúdo: ");
+                registroAtualizado.Conteudo = Console.ReadLine()!;
+
+                dao.Atualizar(registroAtualizado);
+                Console.WriteLine("Registro atualizado com sucesso!");
+            }
+            else
+            {
+                Console.WriteLine("Registro não encontrado.");
+            }
+
+            break;
+
+        case 5:
+
+            int idExclusao = LerInteiro("Informe o ID do registro: ");
+            Registro? registroExcluido = dao.BuscarPorId(idExclusao);
+
+            if (registroExcluido != null)
+            {
+                dao.Excluir(idExclusao);
+                Console.WriteLine("Registro excluído com sucesso!");
             }
             else
             {
