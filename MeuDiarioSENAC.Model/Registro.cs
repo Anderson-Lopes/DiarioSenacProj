@@ -1,3 +1,4 @@
+namespace MeuDiarioSENAC.Model;
 public class Registro
 {
     public int Id { get; set; }
@@ -8,7 +9,7 @@ public class Registro
 
     public string Conteudo { get; set; } = "";
 
-    public Usuario Usuario { get; set; }
+    public Usuario Usuario { get; set; } = null!;
     
     public int UsuarioId { get; set; }
 }

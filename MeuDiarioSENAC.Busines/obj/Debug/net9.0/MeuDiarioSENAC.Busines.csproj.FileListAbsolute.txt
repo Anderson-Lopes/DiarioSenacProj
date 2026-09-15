@@ -1,0 +1,16 @@
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiarioSENAC.Busines.csproj.AssemblyReference.cache
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiarioSENAC.Busines.GeneratedMSBuildEditorConfig.editorconfig
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiarioSENAC.Busines.AssemblyInfoInputs.cache
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiarioSENAC.Busines.AssemblyInfo.cs
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiarioSENAC.Busines.csproj.CoreCompileInputs.cache
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiarioSENAC.Busines.sourcelink.json
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\bin\Debug\net9.0\MeuDiarioSENAC.Busines.deps.json
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\bin\Debug\net9.0\MeuDiarioSENAC.Busines.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\bin\Debug\net9.0\MeuDiarioSENAC.Busines.pdb
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\bin\Debug\net9.0\MeuDiarioSENAC.Model.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\bin\Debug\net9.0\MeuDiarioSENAC.Model.pdb
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiari.23B88E53.Up2Date
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiarioSENAC.Busines.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\refint\MeuDiarioSENAC.Busines.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\MeuDiarioSENAC.Busines.pdb
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Busines\obj\Debug\net9.0\ref\MeuDiarioSENAC.Busines.dll

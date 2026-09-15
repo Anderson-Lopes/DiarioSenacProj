@@ -1,16 +1,31 @@
 using Microsoft.EntityFrameworkCore;
+using MeuDiarioSENAC.Model;
+
+namespace MeuDiarioSENAC.Data;
 
 public class MeuDiarioSENACContext : DbContext
 {
     public DbSet<Registro> Registros { get; set; }
     public DbSet<Usuario> Usuarios { get; set; }
-    private readonly string connectionString =
+    private const string ConnectionStringPadrao =
         "server=localhost;database=MeuDiarioSENAC;uid=root;pwd=S&nac2024;";
+
+    public MeuDiarioSENACContext()
+    {
+        Database.Migrate();
+    }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseMySql(connectionString,
-            ServerVersion.AutoDetect(connectionString));
+        if (optionsBuilder.IsConfigured)
+        {
+            return;
+        }
+
+        string connectionString = Environment.GetEnvironmentVariable("MEUDIARIOSENAC_CONNECTION_STRING")
+            ?? ConnectionStringPadrao;
+
+        optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

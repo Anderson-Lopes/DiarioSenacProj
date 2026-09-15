@@ -1,8 +1,10 @@
-using MySql.Data.MySqlClient;
+using MeuDiarioSENAC.Model;
+
+namespace MeuDiarioSENAC.Data;
 
 public class RegistroDAO
 {
-    private MeuDiarioSENACContext conexao = new MeuDiarioSENACContext();
+    private readonly MeuDiarioSENACContext conexao = new();
 
     public Usuario ObterOuCriarUsuarioPadrao()
     {

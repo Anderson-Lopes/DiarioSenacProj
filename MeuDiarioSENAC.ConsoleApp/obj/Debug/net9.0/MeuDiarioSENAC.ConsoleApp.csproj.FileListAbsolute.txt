@@ -103,3 +103,9 @@ C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\refint\Me
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.pdb
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\MeuDiarioSENAC.ConsoleApp.genruntimeconfig.cache
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\obj\Debug\net9.0\ref\MeuDiarioSENAC.ConsoleApp.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Model.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Model.pdb
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Busines.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Busines.pdb
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Service.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.ConsoleApp\bin\Debug\net9.0\MeuDiarioSENAC.Service.pdb

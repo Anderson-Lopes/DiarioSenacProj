@@ -27,3 +27,6 @@ C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Data\obj\Debug\net9.0\refint\MeuDiari
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.Data.pdb
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiarioSENAC.Data.genruntimeconfig.cache
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Data\obj\Debug\net9.0\ref\MeuDiarioSENAC.Data.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Model.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Data\bin\Debug\net9.0\MeuDiarioSENAC.Model.pdb
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.Data\obj\Debug\net9.0\MeuDiari.D3277251.Up2Date
