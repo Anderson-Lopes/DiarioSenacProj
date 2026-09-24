@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDiarioSENAC.Busines", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDiarioSENAC.Service", "MeuDiarioSENAC.Service\MeuDiarioSENAC.Service.csproj", "{68AAA20C-E66E-4229-AA32-AF6F0894873E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuDiarioSENAC.WebAPI", "MeuDiarioSENAC.WebAPI\MeuDiarioSENAC.WebAPI.csproj", "{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{68AAA20C-E66E-4229-AA32-AF6F0894873E}.Release|x64.Build.0 = Release|Any CPU
 		{68AAA20C-E66E-4229-AA32-AF6F0894873E}.Release|x86.ActiveCfg = Release|Any CPU
 		{68AAA20C-E66E-4229-AA32-AF6F0894873E}.Release|x86.Build.0 = Release|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Debug|x64.Build.0 = Debug|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Debug|x86.Build.0 = Debug|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Release|x64.ActiveCfg = Release|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Release|x64.Build.0 = Release|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Release|x86.ActiveCfg = Release|Any CPU
+		{3A43C860-B428-4DA2-8B2B-30BFC3AFE15A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

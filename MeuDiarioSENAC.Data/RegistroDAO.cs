@@ -1,4 +1,5 @@
 using MeuDiarioSENAC.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace MeuDiarioSENAC.Data;
 
@@ -22,13 +23,23 @@ public class RegistroDAO
 
     public void Inserir(Registro registro)
     {
+        if (registro.UsuarioId == 0)
+        {
+            Usuario usuario = ObterOuCriarUsuarioPadrao();
+            registro.UsuarioId = usuario.Id;
+            registro.Usuario = usuario;
+        }
+
         conexao.Registros.Add(registro);
         conexao.SaveChanges();
     }
 
     public List<Registro> ListarTodos()
     {
-        return conexao.Registros.ToList();
+        return conexao.Registros
+        .AsNoTracking()
+        .Include(r => r.Usuario)
+        .ToList();
     }
 
     public Registro? BuscarPorId(int id)

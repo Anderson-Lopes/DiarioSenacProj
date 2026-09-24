@@ -68,4 +68,9 @@ public class RegistroService : IRegistroService
         registroDao.Excluir(id);
         return true;
     }
+
+    public bool InserirRegistro(Registro registro)
+    {
+        return Inserir(registro);
+    }
 }
