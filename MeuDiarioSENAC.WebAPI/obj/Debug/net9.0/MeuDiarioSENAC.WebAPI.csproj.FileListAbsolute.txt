@@ -61,3 +61,12 @@ C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\MeuDiarioSENA
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\MeuDiarioSENAC.Busines.pdb
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\MeuDiarioSENAC.Data.pdb
 C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\obj\Debug\net9.0\MeuDiari.658E3BD3.Up2Date
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\Microsoft.Bcl.Cryptography.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\workplace\MeuDiarioSENAC\MeuDiarioSENAC.WebAPI\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll

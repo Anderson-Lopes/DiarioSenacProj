@@ -4,23 +4,29 @@ using Microsoft.AspNetCore.Mvc;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.ConfigureHttpJsonOptions(options => 
-{
-    options.SerializerOptions.ReferenceHandler = ReferenceHandler.
-    IgnoreCycles;
-});
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("Frontend", policy =>
-    {
-        policy
-            .WithOrigins("http://localhost:4200")
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
-});
+    builder.Services.ConfigureHttpJsonOptions(options => 
+        {
+            options.SerializerOptions.ReferenceHandler = ReferenceHandler.
+            IgnoreCycles;
+        });
+    builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("Frontend", policy =>
+            {
+                policy
+                    .WithOrigins("http://localhost:4200")
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+            });
+        });
 var app = builder.Build();
-app.UseCors("Frontend");
+    app.UseCors("Frontend");
+    app.MapPost("/login/auth", () =>
+        {
+            TokenService authService = new TokenService(builder.Configuration);
+            return authService.GerarToken(null);
+            
+        });
 var registrosGroup = app.MapGroup("/registros");
 
 app.MapGet("/", () => "Hello World");
